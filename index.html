@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="el,english">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -743,14 +743,14 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="navbar-inner">
-            <a href="#" class="logo">
+            <a ="#" class="logo">
                 <span>SINGH</span> <em>GAGANDEEP</em>
             </a>
             <div class="nav-links">
-                <a href="#hero">Αρχική</a>
-                <a href="#books">Βιβλία</a>
-                <a href="#about">Σχετικά</a>
-                <a href="#contact">Επικοινωνία</a>
+                <a ="#hero">Αρχική</a>
+                <a ="#books">Βιβλία</a>
+                <a ="#about">Σχετικά</a>
+                <a ="#contact">Επικοινωνία</a>
             </div>
         </div>
     </nav>
@@ -770,7 +770,7 @@
                         </svg>
                         Διαβάστε το βιβλίο
                     </button>
-                    <a href="#books" class="btn">Τα βιβλία μου</a>
+                    <a ="#books" class="btn">Τα βιβλία μου</a>
                 </div>
             </div>
             <div class="hero-book animate delay-2">
@@ -863,8 +863,8 @@
             <h2>Ας <em>Μιλήσουμε</em></h2>
             <p>Για παρουσιάσεις, συνεντεύξεις, σχολεία ή απλώς γιατί θέλετε να μοιραστείτε τι σας έκανε εντύπωση στα βιβλία μου — είμαι εδώ.</p>
             <div class="social-links">
-                 <a href="https://www.instagram.com/singh_gaaa/">Instagram</a>
-                 <a href="https://www.facebook.com/profile.php?id=100038403304606">Facebook</a>
+                 <a ="https://www.instagram.com/singh_gaaa/">Instagram</a>
+                 <a ="https://www.facebook.com/profile.php?id=100038403304606">Facebook</a>
             </div>
         </div>
     </section>
@@ -880,17 +880,17 @@
                 <div>
                     <h4>Πλοήγηση</h4>
                     <div class="footer-links">
-                        <a href="#hero">Αρχική</a>
-                        <a href="#books">Βιβλία</a>
-                        <a href="#about">Σχετικά</a>
-                        <a href="#contact">Επικοινωνία</a>
+                        <a ="#hero">Αρχική</a>
+                        <a ="#books">Βιβλία</a>
+                        <a ="#about">Σχετικά</a>
+                        <a ="#contact">Επικοινωνία</a>
                     </div>
                 </div>
                 <div>
                     <h4>Σύνδεσμοι</h4>
                     <div class="footer-links">        
-                        <a href="https://www.instagram.com/singh_gaaa/">Instagram</a>
-                        <a href="https://www.facebook.com/profile.php?id=100038403304606">Facebook</a>
+                        <a ="https://www.instagram.com/singh_gaaa/">Instagram</a>
+                        <a ="https://www.facebook.com/profile.php?id=100038403304606">Facebook</a>
                     </div>
                 </div>
             </div>
@@ -957,10 +957,10 @@
         });
 
         // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('a[^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const target = document.querySelector(this.getAttribute(''));
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
